@@ -1,0 +1,30 @@
+/* styles/NotesArea.module.css */
+.notesArea {
+    width: 75vw; /* 3/4 of the window's width */
+    height: 75vh; /* 3/4 of the window's height */
+    border: 2px solid #ccc;
+    padding: 20px;
+    overflow-y: auto; /* Enable vertical scrolling if notes exceed container height */
+    border-radius: 20px;
+    background-color: black;
+
+  }
+  
+  .noteContainer {
+    border-radius: 20px;
+    border-bottom: #ccc;
+    background-color: black;
+    
+  }
+  
+  .note {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .textarea {
+    width: 100%;
+    height: 100px;
+    resize: none; /* Disable textarea resizing */
+    margin-bottom: 5px;
+  }
